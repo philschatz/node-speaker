@@ -22,7 +22,7 @@
         },
       },
       'Release': {
-        'defines': [ 'NDEBUG' ],
+        'defines': [ 'NDEBUG', 'NO_WARNING' ],
         'msvs_settings': {
           'VCCLCompilerTool': {
             'RuntimeLibrary': 0, # static release
